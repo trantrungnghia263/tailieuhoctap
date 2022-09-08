@@ -1,0 +1,225 @@
+@media only screen and (max-width:370px){
+    #toogle{
+        display: block;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+    }
+    hr{
+        display: none;
+    }
+    #header{
+        padding: 1.5rem 2rem;
+        display: block;
+        height: 100px;
+    }
+    #header .menu_header{
+        float: left;
+        margin-top: 10px;
+        margin-left: -31px;
+        background-color: rgb(53, 151, 151);
+        padding-left: 10px;
+    }
+    #header .text_logo{
+        margin-top: -83px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 34px;
+    }
+    #header .toogle .fa-bars{
+        font-size: 40px;
+    }
+    #header .text_logo .check{
+        font-size: 40px;
+    }
+    #header .menu_header ul{
+        display: block;
+    }
+    #header .menu_header ul li{
+        /* padding: 10px 0px; */
+        font-size: 30px;
+    }
+    #header .menu_header ul li .fa-file{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    #header .menu_header ul li i{
+        padding-left: 10px;
+        width: 50px;
+    }
+
+    #main #trangchu #gioithieu{
+        width: 900px;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    #main #trangchu #gioithieu .title p{
+        font-size: 30px;
+    }
+    #main #trangchu #gioithieu .mangxahoi{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
+        gap: 1.5rem;
+        text-align: center;
+    }
+    #main #trangchu #gioithieu .mangxahoi .item{
+        font-size: 20px;
+    }
+    #main #trangchu #gioithieu .mangxahoi .item .fb{
+        width: 100%;
+    }
+    #main #trangchu #gioithieu .mangxahoi .item .fb img{
+        width: 50%;
+    }
+    #main #trangchu #gioithieu .mangxahoi .item .fb p{
+        font-size: 25px;
+    }
+    #main #trangchu #gioithieu .mangxahoi .item .fb span{
+        font-size: 25px;
+    }
+    #main #trangchu #gioithieu .mangxahoi .item .tiktok span{
+        width: 269px;
+    }
+    #main #trangchu #gioithieu .inmauhanoi{
+        width: 250px;
+        height: 70px;
+        padding: 12px;
+        margin:20px auto 0px auto;
+        border-radius: 50px;
+    }
+    #main #trangchu #gioithieu .inmauhanoi a{
+        font-size: 30px;
+        color: aqua;
+    }
+    #main #ttn{
+        width: 900px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #main #ttn .text_info{
+        display: block;
+        margin-top: 10px;
+    }
+    #main #ttn .text_info h1{
+        font-size: 40px;
+    }
+    #main #ttn .text_info p{
+        justify-content: center;
+        text-align: justify;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 25px;
+        width: 500px;
+        display: none;
+    }
+    #main .tieude_menu p{
+        font-size: 40px;
+    }
+    #main #phanmem .software{
+        width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1.5rem;
+        position: relative;
+        box-sizing: border-box;
+    }
+    #main #phanmem .software .PM{
+        width: 100%;
+    }
+    #main #phanmem .software .PM .software_one_footer{
+        font-size: 30px;
+    }
+    #main #phanmem .software .PM .img_office{
+        height: 70.5%;
+    }
+    #main #tailieu .file{
+        width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* #main #tailieu .file .android{
+        margin-top: 20px;
+    } */
+    #main #tailieu .file p{
+        font-size: 30px;
+    }
+    #main #tailieu .file .download_file{
+        padding: 20px;
+    }
+    #main #tailieu .file .download_file a{
+        font-size: 30px;
+    }
+    #lienhe{
+        width: 900px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: block;
+    }
+    #lienhe a , #lienhe p{
+        font-size: 30px;
+    }
+    #content_footer #footer .noidung .footer_one, .noidung .footer_one, .noidung .footer_one{
+        height: 300px;
+        width: auto;
+    }
+    #content_footer #footer .noidung h1{
+        font-size:35px;
+    }
+    #content_footer #footer .noidung p{
+        font-size: 25px;
+    }
+    #content_footer #footer .footer_two{
+        width: auto;
+    }
+    #content_footer #footer .footer_one h1{
+        margin: auto;
+        margin-top: -25px;
+        font-size: 35px;
+    }
+    #content_footer #footer .footer_one .icon_mxh{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    #designer .desginby{
+        font-size: 35px;
+    }
+    /* #linkzalo span{
+        font-size: 30px;
+    } */
+    /* #linkzalo div{
+        font-size: 30px;
+    } */
+    #linkzalo .fcta-zalo-mess{
+        margin-right: 20px;
+    }
+    #linkzalo .fcta-zalo-mess span{
+        font-size: 35px;
+    }
+    #linkzalo .fcta-zalo-vi-tri-nut .fcta-zalo-nen-nut{
+        width: 80px;
+        height: 80px;
+    }
+    #linkzalo .fcta-zalo-vi-tri-nut .fcta-zalo-nen-nut .fcta-zalo-ben-trong-nut svg{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    #linkzalo .fcta-zalo-text{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
